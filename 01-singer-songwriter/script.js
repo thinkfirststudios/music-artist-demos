@@ -16,9 +16,16 @@
   }
 
   /* ---------- condensing header (70px) ---------- */
+  var condenseOn = 90, condenseOff = 50, condensed = false;
+  function setCondensed() {
+    var y = window.scrollY;
+    if (!condensed && y > condenseOn) condensed = true;
+    else if (condensed && y < condenseOff) condensed = false;
+    if (header) header.classList.toggle("is-condensed", condensed);
+  }
   var header = $(".site-header");
   if (header) {
-    var onScroll = function () { header.classList.toggle("is-condensed", window.scrollY > 70); };
+    var onScroll = function () { setCondensed(); };
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
   }

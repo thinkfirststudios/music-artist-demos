@@ -11,8 +11,15 @@
   var ss = function (k, v) { try { if (v === undefined) return sessionStorage.getItem(k); sessionStorage.setItem(k, v); } catch (e) { return null; } };
 
   /* ---------- header: hard cut at 50px ---------- */
+  var condenseOn = 70, condenseOff = 30, condensed = false;
+  function setCondensed() {
+    var y = window.scrollY;
+    if (!condensed && y > condenseOn) condensed = true;
+    else if (condensed && y < condenseOff) condensed = false;
+    if (header) header.classList.toggle("is-cut", condensed);
+  }
   var header = $(".site-header");
-  var cut = function () { if (header) header.classList.toggle("is-cut", window.scrollY > 50); };
+  var cut = function () { if (header) setCondensed(); };
   cut();
   window.addEventListener("scroll", cut, { passive: true });
 

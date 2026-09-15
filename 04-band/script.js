@@ -8,8 +8,15 @@
   var reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   /* ---------- condensing header (140px) ---------- */
+  var condenseOn = 160, condenseOff = 120, condensed = false;
+  function setCondensed() {
+    var y = window.scrollY;
+    if (!condensed && y > condenseOn) condensed = true;
+    else if (condensed && y < condenseOff) condensed = false;
+    if (header) header.classList.toggle("is-condensed", condensed);
+  }
   var header = $(".site-header");
-  var onScroll = function () { if (header) header.classList.toggle("is-condensed", scrollY > 140); };
+  var onScroll = function () { if (header) setCondensed(); };
   onScroll(); addEventListener("scroll", onScroll, { passive: true });
 
   /* ---------- mobile panel ---------- */

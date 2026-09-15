@@ -202,12 +202,22 @@
     booted = true;
 
     /* header: hard cut at 60px, inverts while an Ink hero is under it */
-    var header = $(".site-header");
+    var condenseOn = 80, condenseOff = 40, condensed = false;
+  function setCondensed() {
+    var y = window.scrollY;
+    if (!condensed && y > condenseOn) condensed = true;
+    else if (condensed && y < condenseOff) condensed = false;
+    if (header) header.classList.toggle("is-cut", condensed);
+  }
+  var header = $(".site-header");
     var hero = $("[data-hero]");
     var heroOn = !!hero;
     var setHeader = function () {
       if (!header) return;
-      header.classList.toggle("is-cut", scrollY > 60);
+      setCondensed();
+      // read the hero's own position as well, so a fast scroll can't leave the header
+      // inverted (light type) once it is over a light section
+      if (hero) heroOn = hero.getBoundingClientRect().bottom > 70;
       header.classList.toggle("on-ink", heroOn);
     };
     if (hero && "IntersectionObserver" in window) {

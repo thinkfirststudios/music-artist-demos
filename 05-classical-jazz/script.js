@@ -8,8 +8,15 @@
   var reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   /* ---------- condensing header (130px) ---------- */
+  var condenseOn = 150, condenseOff = 110, condensed = false;
+  function setCondensed() {
+    var y = window.scrollY;
+    if (!condensed && y > condenseOn) condensed = true;
+    else if (condensed && y < condenseOff) condensed = false;
+    if (header) header.classList.toggle("is-condensed", condensed);
+  }
   var header = $(".site-header");
-  var cond = function () { if (header) header.classList.toggle("is-condensed", scrollY > 130); };
+  var cond = function () { if (header) setCondensed(); };
   cond(); addEventListener("scroll", cond, { passive: true });
 
   /* ---------- mobile panel: links fade in at 50ms, no sliding ---------- */
