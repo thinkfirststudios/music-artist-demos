@@ -830,3 +830,108 @@ html:not(.js) .embed-slot[data-platform="bandcamp"], html:not(.js) .embed-slot[d
 
 
 .plot svg text { font-family: var(--sans); }
+
+/* ==========================================================================
+   COLOUR PASS — clay and moss as real colour fields, not just accents.
+   Ochre stays reserved for ticket CTAs. Deep shades carry any light text (AA).
+   ========================================================================== */
+:root {
+  --clay-deep: #8E4A33;   /* paper on this: 5.6:1 */
+  --moss-deep: #4F5A3E;   /* paper on this: 6.4:1 */
+  --clay-tint: #F0DCCD;
+  --moss-tint: #E1E5D3;
+}
+
+/* hero: warm washes of clay and moss behind the title page */
+.hero {
+  background:
+    radial-gradient(ellipse 55% 70% at 88% 20%, rgba(180, 103, 74, .28), transparent 70%),
+    radial-gradient(ellipse 45% 60% at 5% 95%, rgba(110, 122, 90, .26), transparent 70%),
+    linear-gradient(180deg, #F6F1E7 0%, #F1E6D6 100%);
+}
+.hero__kicker { color: var(--clay-deep); }
+.hero h1 .line:nth-child(3) { color: var(--clay-deep); font-style: italic; }
+.colophon::before { background: linear-gradient(90deg, #B4674A, #6E7A5A 60%, rgba(110, 122, 90, 0)); opacity: 1; height: 2px; }
+.hero__plate .plate { position: relative; }
+.hero__plate .frame, #about .frame {
+  background: linear-gradient(160deg, #B4674A 0%, #8E4A33 55%, #3F352A 100%);
+  border: 0; color: #F6F1E7; box-shadow: 18px 18px 0 0 #6E7A5A;
+}
+#about .frame { background: linear-gradient(160deg, #6E7A5A 0%, #4F5A3E 55%, #3F352A 100%); box-shadow: -18px 18px 0 0 #B4674A; }
+
+/* the record: moss band, coloured sleeve */
+#record { background: linear-gradient(180deg, #F1E6D6 0, #E1E5D3 6rem, #E1E5D3 calc(100% - 6rem), #F6F1E7 100%); }
+#record .frame { background: linear-gradient(145deg, #6E7A5A 0%, #4F5A3E 60%, #3F352A 100%); border: 0; color: #E9EDDD; }
+#record .frame__title { color: #F6F1E7; }
+.player-toggle [role="radio"][aria-checked="true"] { background: var(--moss-deep); }
+
+/* road ledger: the letter becomes a deep moss slip */
+.ledger { border-color: var(--clay); border-width: 2px; }
+.date-row:hover { background: var(--clay-tint); }
+.date-row__date { color: var(--clay-deep); }
+.ledger__letter { background: linear-gradient(165deg, #56613F 0%, #4F5A3E 50%, #3E4730 100%); color: #F6F1E7; }
+@media (min-width: 1000px) { .ledger__letter { border-left: 2px solid var(--clay); } }
+.letter h3 { color: #F6F1E7; }
+.offer { border-top-color: rgba(246, 241, 231, .3); }
+.offer li { border-bottom-color: rgba(246, 241, 231, .3); color: #EEF1E4; }
+.ledger__letter .field label, .ledger__letter .field .opt, .ledger__letter .check, .ledger__letter .form-status { color: #EEF1E4; }
+.ledger__letter .form-note { color: #D6DCC6; }
+.ledger__letter .check input { accent-color: var(--ochre); }
+.ledger__letter :focus-visible { outline-color: var(--ochre); }
+
+/* songs: clay credit panel */
+.tracklist a::before, .tracklist .track::before { color: var(--clay-deep); }
+.credits-block { background: var(--clay-tint); border-top: 0; border-left: 3px solid var(--clay); padding: 20px 22px; }
+
+/* songbook: add a clay bloom to the endpapers */
+.songbook { background: radial-gradient(ellipse 50% 60% at 100% 100%, rgba(180, 103, 74, .30), transparent 70%), var(--lyrics); }
+
+/* about: clay-tinted room */
+#about { background: linear-gradient(180deg, #F6F1E7 0%, #F0DCCD 30%, #F0DCCD 70%, #F6F1E7 100%); }
+
+/* press: a solid clay band */
+#press { background: linear-gradient(135deg, #9A5238 0%, #8E4A33 55%, #6E3A28 100%); color: #F6F1E7; }
+#press .section-label, #press .honesty, #press .fine, #press .quote cite { color: #F3E4DA; }
+#press .section-label::after { background: linear-gradient(90deg, #F6F1E7, rgba(246, 241, 231, 0)); }
+#press .quote { border-left-color: #F6F1E7; }
+#press a { color: #FFFFFF; }
+#press :focus-visible { outline-color: #F6F1E7; }
+
+/* sessions and plates: moss tint and clay hover */
+#sessions { background: linear-gradient(180deg, #F6F1E7 0%, #E1E5D3 100%); }
+.video-facade__btn { background: var(--ochre); }
+#photographs { background: linear-gradient(180deg, #E1E5D3 0%, #F0DCCD 100%); }
+
+/* store: product frames in the palette instead of grey */
+.products .product:nth-child(3n+1) .frame { background: linear-gradient(150deg, #B4674A, #8E4A33); color: #F6F1E7; border: 0; }
+.products .product:nth-child(3n+2) .frame { background: linear-gradient(150deg, #6E7A5A, #4F5A3E); color: #EEF1E4; border: 0; }
+.products .product:nth-child(3n) .frame { background: linear-gradient(150deg, #3F352A, #2A241C); color: #EBE3D3; border: 0; }
+
+/* letter band: clay, loud */
+.letter-band { background: linear-gradient(120deg, #8E4A33 0%, #9A5238 50%, #6E3A28 100%); color: #F6F1E7; }
+.letter-band::before, .letter-band::after { background: linear-gradient(90deg, rgba(246,241,231,0), #F6F1E7 50%, rgba(246,241,231,0)); }
+.letter-band__sub, .letter-band .check, .letter-band .form-status { color: #F3E4DA; }
+.letter-band .form-note { color: #EBD3C4; }
+.letter-band .check input { accent-color: var(--ochre); }
+.letter-band :focus-visible { outline-color: #F6F1E7; }
+.letter-band a { color: #fff; }
+
+/* contact: colour bar on each route */
+.contact { border-top: 4px solid var(--clay); }
+.contact:nth-child(2) { border-top-color: var(--moss); }
+.contact:nth-child(3) { border-top-color: var(--walnut); }
+.contact:nth-child(4) { border-top-color: var(--clay-deep); }
+@media (min-width: 1100px) { .contact { padding-top: 22px; margin-top: -1px; } }
+
+/* EPK entry: moss band */
+.epk-band { background: linear-gradient(135deg, #56613F 0%, #4F5A3E 60%, #3E4730 100%); color: #F6F1E7; border-top: 0; }
+.epk-band .h2 { color: #F6F1E7; }
+.epk-band p { color: #E6EAD9; }
+.epk-band .btn-outline { border-color: #F6F1E7; color: #F6F1E7; }
+.epk-band .btn-outline:hover { background: #F6F1E7; color: var(--moss-deep); }
+.epk-band :focus-visible { outline-color: #F6F1E7; }
+
+/* section labels pick up clay everywhere on light grounds */
+.section-label { color: var(--clay-deep); }
+
+.hero__plate figcaption, #about .plate figcaption { margin-top: 30px; }

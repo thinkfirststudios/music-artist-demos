@@ -473,3 +473,8 @@ table.spec th { font-size: 11px; letter-spacing: .06em; text-transform: uppercas
 .drop-hero__title { margin-left: -.07em; }
 .still { max-width: 760px; }
 .drop-hero .credit { color: #C9C2B6; }
+
+/* Hero: say whose song it is, and keep the title inside the page margins. */
+.drop-hero__artist { margin: 0 0 6px; font: 900 clamp(1.4rem, 3vw, 2.2rem)/1 var(--display); font-variation-settings: "wdth" 100; letter-spacing: .01em; text-transform: uppercase; color: var(--bone); }
+.drop-hero__title { font-size: clamp(3rem, 14vw, 12.5rem); margin-left: -.03em; margin-right: 0; white-space: normal; }
+.drop-hero__title span { white-space: nowrap; }

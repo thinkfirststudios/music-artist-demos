@@ -40,6 +40,7 @@
     var still = { src: base + v.still, alt: v.still_alt };
     return '<section class="drop-hero" aria-labelledby="drop-title" data-hero>' +
       '<div class="wrap">' +
+      '<p class="drop-hero__artist">CASS EMORY</p>' +
       '<p class="drop-hero__kicker">' + esc(x.kicker) + "</p>" +
       '<h1 id="drop-title" class="drop-hero__title">' + titleLines(x.title_lines) + "</h1>" +
       '<div class="drop-hero__grid">' +

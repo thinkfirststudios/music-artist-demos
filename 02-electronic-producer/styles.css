@@ -535,7 +535,7 @@ details.played li { font: 400 12px/1.5 var(--mono); color: var(--slate-hi); padd
 /* ---------- refinements ---------- */
 /* Wordmark: brief's clamp() size, tracked out so the S and the V run off both viewport edges.
    League Gothic sets SEVEROV at ~2.6em; the tracking makes up the rest of 124vw. */
-.hero__word { --ls: calc((124vw - 2.6em) / 7); letter-spacing: var(--ls); padding-left: var(--ls); margin: 0; width: 100%; justify-content: center; }
+.hero__word { --ls: calc((92vw - 2.6em) / 8); letter-spacing: var(--ls); padding-left: var(--ls); margin: 0; width: 100%; justify-content: center; }
 .hero__word .l { margin-left: calc(var(--ls) * -.5); }
 /* keep the header legible over bright haze */
 .hero__scrim { background: linear-gradient(180deg, rgba(7, 8, 11, .75) 0%, rgba(7, 8, 11, 0) 22%), var(--hero-scrim); }
@@ -548,3 +548,7 @@ details.played summary { list-style: none; }
 details.played summary::-webkit-details-marker { display: none; }
 .photos { align-items: start; }
 .frame { align-content: center; }
+
+/* Hero wordmark: fit inside the viewport instead of running off the edges.
+   Width = 2.6em of glyphs + 8 tracking steps (7 letters + balancing left padding) = 92vw. */
+.hero__word { --ls: calc((92vw - 2.6em) / 8); }
