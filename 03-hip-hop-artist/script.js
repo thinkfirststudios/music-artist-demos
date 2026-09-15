@@ -21,12 +21,14 @@
     return t.map(function (p) { return '<span class="' + (p[1] || "w") + '">' + esc(p[0]) + "</span>"; }).join(" ");
   }
 
+  var EMBEDS = {};   // optional real player URLs from drop.json "embeds": { "youtube": ..., "spotify": ... }
   function slotHTML(kind, label, title, meta, comment, links, still) {
+    var src = kind.indexOf("youtube") === 0 ? (EMBEDS.youtube || "") : kind.indexOf("spotify") === 0 ? (EMBEDS.spotify || "") : "";
     var fb = '<div class="fallback"><b>' + esc(title) + "</b>" + esc(meta) + "<ul>" + links.map(function (l) { return '<li><a href="' + esc(l[1]) + '" rel="noopener">' + esc(l[0]) + "</a></li>"; }).join("") + "</ul></div>";
     var facade = still
       ? '<div class="duo duo--scrim"><img src="' + esc(still.src) + '" alt="' + esc(still.alt) + '" width="1920" height="1080" loading="lazy"></div><button class="facade-btn" type="button" data-load><span class="sq">' + PLAY + '</span><span class="lbl">' + esc(label) + "</span></button>"
       : '<div class="slot-bar"><button type="button" data-load>' + PLAY + "<span>" + esc(label) + "</span></button><span>Loads only when you press play.</span></div>";
-    return '<div class="embed-slot" data-kind="' + kind + '" data-src="" data-title="' + esc(label) + '">' +
+    return '<div class="embed-slot" data-kind="' + kind + '" data-src="' + esc(src) + '" data-title="' + esc(label) + '">' +
       "<!-- REAL EMBED (paste the ID, then copy src into data-src): " + comment + " -->" + facade +
       '<template class="ph"><div class="placeholder" role="status"><strong>PLAYER PLACEHOLDER — DEMO SITE, NO AUDIO</strong><span>' + esc(title) + "</span></div></template>" +
       '<template class="fb">' + fb + "</template><noscript>" + fb + "</noscript></div>";
@@ -153,6 +155,7 @@
   }
 
   function renderDrop(x) {
+    EMBEDS = x.embeds || {};
     var base = root.getAttribute("data-root") || "";
     var mode = root.getAttribute("data-mode");
     if (mode === "home") {
