@@ -1,0 +1,3 @@
+# Fictional demonstration site by ThinkFirst Studios. Not a real artist.
+User-agent: *
+Disallow: /

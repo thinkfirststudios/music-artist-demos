@@ -1,0 +1,413 @@
+{
+  "slug": "the-second-shift-tape",
+  "title": "THE SECOND SHIFT TAPE",
+  "title_lines": [
+    [
+      "THE SECOND",
+      "c"
+    ],
+    [
+      "SHIFT",
+      "w"
+    ],
+    [
+      "TAPE",
+      "c"
+    ]
+  ],
+  "type": "Mixtape",
+  "year": "2024",
+  "kicker": "MIXTAPE · 12 TRACKS · 2024",
+  "date_iso": "2024-03-06",
+  "runtime": "5:10",
+  "duration_iso": null,
+  "explicit": true,
+  "city": "HOUSTON, TX",
+  "meta_description": "THE SECOND SHIFT TAPE by CASS EMORY: every track, lyrics, credits, the Second Shift (Studio Session) video, streaming and merch. Fictional demonstration site by ThinkFirst Studios.",
+  "og_image": "og.png",
+  "publisher_name": "Second Shift Songs (ASCAP), administered independently",
+  "video": {
+    "title": "Second Shift (Studio Session)",
+    "director": "Rome Aguilar",
+    "runtime": "5:10",
+    "duration_iso": "PT5M10S",
+    "still": "images/visuals-f.jpg",
+    "still_alt": "Close-up of a hand pushing a fader on a dark mixing console with orange-lit buttons",
+    "still_credit": "Still: Marquis Odom",
+    "stock_credit": "Demo stand-in image: Elvis Kambire / Pexels",
+    "crew": [
+      [
+        "Directed by",
+        "Rome Aguilar"
+      ],
+      [
+        "DP",
+        "Tavo Reyes"
+      ],
+      [
+        "Edit",
+        "Sawyer Pike"
+      ],
+      [
+        "Colour",
+        "June Nakamura"
+      ],
+      [
+        "Production",
+        "Eastbound Pictures"
+      ],
+      [
+        "Location",
+        "A studio off Navigation Blvd, Houston, TX"
+      ]
+    ],
+    "spoken": [
+      {
+        "who": "Dre Villanueva, 0:00",
+        "text": "Rolling. Take it from the top whenever."
+      },
+      {
+        "who": "CASS EMORY",
+        "text": "Give me the drums on their own for four. Yeah. That."
+      }
+    ]
+  },
+  "stream": {
+    "links": [
+      [
+        "SPOTIFY",
+        "https://open.spotify.demo/cassemory/the-second-shift-tape"
+      ],
+      [
+        "APPLE MUSIC",
+        "https://music.apple.demo/cassemory/the-second-shift-tape"
+      ],
+      [
+        "YOUTUBE",
+        "https://youtube.com/@cassemory.demo"
+      ],
+      [
+        "BANDCAMP",
+        "https://cassemory.bandcamp.demo/the-second-shift-tape"
+      ],
+      [
+        "TIDAL",
+        "https://tidal.demo/cassemory/the-second-shift-tape"
+      ],
+      [
+        "AMAZON MUSIC",
+        "https://music.amazon.demo/cassemory/the-second-shift-tape"
+      ],
+      [
+        "SOUNDCLOUD",
+        "https://soundcloud.demo/cassemory/the-second-shift-tape"
+      ]
+    ]
+  },
+  "lyrics": null,
+  "tracks": [
+    {
+      "n": 1,
+      "title": "Clock In",
+      "runtime": "1:34",
+      "drop": null,
+      "explicit": false,
+      "lyrics": null
+    },
+    {
+      "n": 2,
+      "title": "Second Shift",
+      "runtime": "3:58",
+      "drop": null,
+      "explicit": true,
+      "lyrics": [
+        {
+          "tag": "VERSE 1",
+          "lines": [
+            "Second shift, second wind, second hand on the clock,",
+            "second job, second guess, second time that I stop",
+            "at the light on Lockwood where the preacher's got a stand,",
+            "selling mangos and salvation for whatever's in your hand."
+          ]
+        },
+        {
+          "tag": "HOOK",
+          "lines": [
+            "Second shift, I'm on the second shift,",
+            "the first one's for the rent, the second one's for this,",
+            "second shift, the song is what is left,",
+            "the first one takes the body, second one takes the breath."
+          ]
+        },
+        {
+          "tag": "VERSE 2",
+          "lines": [
+            "Home at a quarter to midnight, Mama left the light on,",
+            "plate in the microwave, a note that says you're right on,",
+            "I don't know what I was right on, and she didn't say,",
+            "but I kept the note, it's folded in the liner of the tape."
+          ]
+        },
+        {
+          "tag": "HOOK",
+          "lines": [
+            "Second shift, I'm on the second shift,",
+            "the first one's for the rent, the second one's for this,",
+            "second shift, the song is what is left,",
+            "the first one takes the body, second one takes the breath."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Overtime",
+      "runtime": "3:21",
+      "drop": null,
+      "explicit": false,
+      "lyrics": null
+    },
+    {
+      "n": 4,
+      "title": "Loose Change",
+      "runtime": "2:47",
+      "drop": null,
+      "explicit": false,
+      "lyrics": null
+    },
+    {
+      "n": 5,
+      "title": "Feeder Road",
+      "runtime": "3:35",
+      "drop": null,
+      "explicit": false,
+      "lyrics": null
+    },
+    {
+      "n": 6,
+      "title": "Mama's Kitchen",
+      "runtime": "3:12",
+      "drop": null,
+      "explicit": false,
+      "lyrics": null
+    },
+    {
+      "n": 7,
+      "title": "Interlude: Dispatch",
+      "runtime": "0:58",
+      "drop": null,
+      "explicit": false,
+      "lyrics": null
+    },
+    {
+      "n": 8,
+      "title": "No Days",
+      "runtime": "3:03",
+      "drop": null,
+      "explicit": true,
+      "lyrics": null
+    },
+    {
+      "n": 9,
+      "title": "Nightwalk",
+      "runtime": "3:44",
+      "drop": null,
+      "explicit": false,
+      "lyrics": null
+    },
+    {
+      "n": 10,
+      "title": "Break Room",
+      "runtime": "2:39",
+      "drop": null,
+      "explicit": false,
+      "lyrics": null
+    },
+    {
+      "n": 11,
+      "title": "Clock Out",
+      "runtime": "2:15",
+      "drop": null,
+      "explicit": false,
+      "lyrics": null
+    },
+    {
+      "n": 12,
+      "title": "Long Drive Home",
+      "runtime": "4:40",
+      "drop": null,
+      "explicit": false,
+      "lyrics": null
+    }
+  ],
+  "publishing": "Words by CASS EMORY. © 2024 Second Shift Songs (ASCAP), administered independently. Published here by the writer.",
+  "credits": [
+    [
+      "Written by",
+      "CASS EMORY"
+    ],
+    [
+      "Produced by",
+      "Dre Villanueva and Lyle Banks"
+    ],
+    [
+      "Additional production",
+      "Kemi Adebayo"
+    ],
+    [
+      "Live bass",
+      "Lyle Banks"
+    ],
+    [
+      "Live keys",
+      "Nadia Fontenot"
+    ],
+    [
+      "Live drums",
+      "Theo Castille"
+    ],
+    [
+      "Live guitar",
+      "Ruben Salas"
+    ],
+    [
+      "Recorded at",
+      "a warehouse off Navigation Blvd, Houston, TX"
+    ],
+    [
+      "Mixed by",
+      "Ari Delacroix"
+    ],
+    [
+      "Mastered by",
+      "Simone Park"
+    ],
+    [
+      "Artwork by",
+      "Dessa Villareal"
+    ],
+    [
+      "Published by",
+      "Second Shift Songs (ASCAP), administered independently"
+    ]
+  ],
+  "capsule": {
+    "heading": [
+      [
+        "THE SECOND",
+        "c"
+      ],
+      [
+        "SHIFT",
+        "w"
+      ],
+      [
+        "TAPE.",
+        "c"
+      ]
+    ],
+    "sub": "STANDING CATALOGUE · SHIPS FROM HOUSTON · 5–7 BUSINESS DAYS",
+    "status": "open",
+    "store": "https://shop.cassemory.demo/products/",
+    "items": [
+      {
+        "name": "THE SECOND SHIFT TAPE, cassette",
+        "short": "CASSETTE",
+        "price": "$15",
+        "sizes": null,
+        "slug": "sst-cassette"
+      },
+      {
+        "name": "Work jacket, embroidered back, limited run",
+        "short": "WORK JACKET",
+        "price": "$120",
+        "sizes": [
+          [
+            "S",
+            false
+          ],
+          [
+            "M",
+            true
+          ],
+          [
+            "L",
+            true
+          ],
+          [
+            "XL",
+            true
+          ],
+          [
+            "2XL",
+            false
+          ],
+          [
+            "3XL",
+            false
+          ]
+        ],
+        "slug": "work-jacket"
+      },
+      {
+        "name": "Stacked-wordmark tee, ink on bone",
+        "short": "WORDMARK TEE",
+        "price": "$34",
+        "sizes": [
+          [
+            "S",
+            true
+          ],
+          [
+            "M",
+            true
+          ],
+          [
+            "L",
+            true
+          ],
+          [
+            "XL",
+            true
+          ],
+          [
+            "2XL",
+            true
+          ],
+          [
+            "3XL",
+            false
+          ]
+        ],
+        "slug": "wordmark-tee"
+      },
+      {
+        "name": "Enamel pin, two-colour",
+        "short": "ENAMEL PIN",
+        "price": "$12",
+        "sizes": null,
+        "slug": "enamel-pin"
+      }
+    ]
+  },
+  "more": [
+    {
+      "slug": "concrete-choir",
+      "title": "CONCRETE CHOIR",
+      "type": "Single + visual",
+      "year": "2026"
+    },
+    {
+      "slug": "night-shift-on-harrisburg",
+      "title": "NIGHT SHIFT ON HARRISBURG",
+      "type": "Single + visual",
+      "year": "2026"
+    },
+    {
+      "slug": "parking-lot-prophet",
+      "title": "PARKING LOT PROPHET",
+      "type": "EP",
+      "year": "2025"
+    }
+  ]
+}

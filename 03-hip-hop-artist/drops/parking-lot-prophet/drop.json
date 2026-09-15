@@ -1,0 +1,336 @@
+{
+  "slug": "parking-lot-prophet",
+  "title": "PARKING LOT PROPHET",
+  "title_lines": [
+    [
+      "PARKING LOT",
+      "c"
+    ],
+    [
+      "PROPHET",
+      "w"
+    ]
+  ],
+  "type": "EP",
+  "year": "2025",
+  "kicker": "EP · 6 TRACKS · LIVE BAND ON FOUR · 2025",
+  "date_iso": "2025-07-16",
+  "runtime": "6:22",
+  "duration_iso": null,
+  "explicit": true,
+  "city": "HOUSTON, TX",
+  "meta_description": "PARKING LOT PROPHET by CASS EMORY: every track, lyrics, credits, the Parking Lot Prophet (Live from the Warehouse) video, streaming and merch. Fictional demonstration site by ThinkFirst Studios.",
+  "og_image": "og.png",
+  "publisher_name": "Second Shift Songs (ASCAP), administered independently",
+  "video": {
+    "title": "Parking Lot Prophet (Live from the Warehouse)",
+    "director": "Ines Okonkwo",
+    "runtime": "6:22",
+    "duration_iso": "PT6M22S",
+    "still": "images/visuals-e.jpg",
+    "still_alt": "An adult crowd seen from behind with hands raised, silhouetted against hazy stage light under a lighting truss",
+    "still_credit": "Still: Rome Aguilar",
+    "stock_credit": "Demo stand-in image: Renan Almeida / Pexels",
+    "crew": [
+      [
+        "Directed by",
+        "Ines Okonkwo"
+      ],
+      [
+        "DP",
+        "Tavo Reyes"
+      ],
+      [
+        "Edit",
+        "Sawyer Pike"
+      ],
+      [
+        "Colour",
+        "June Nakamura"
+      ],
+      [
+        "Production",
+        "Eastbound Pictures"
+      ],
+      [
+        "Location",
+        "A warehouse off Navigation Blvd, Houston, TX"
+      ]
+    ],
+    "spoken": [
+      {
+        "who": "CASS EMORY, 0:00",
+        "text": "This one is about a man I met in a parking lot. He was right about my brakes."
+      },
+      {
+        "who": "Crowd",
+        "text": "[Cheering.]"
+      }
+    ]
+  },
+  "stream": {
+    "links": [
+      [
+        "SPOTIFY",
+        "https://open.spotify.demo/cassemory/parking-lot-prophet"
+      ],
+      [
+        "APPLE MUSIC",
+        "https://music.apple.demo/cassemory/parking-lot-prophet"
+      ],
+      [
+        "YOUTUBE",
+        "https://youtube.com/@cassemory.demo"
+      ],
+      [
+        "BANDCAMP",
+        "https://cassemory.bandcamp.demo/parking-lot-prophet"
+      ],
+      [
+        "TIDAL",
+        "https://tidal.demo/cassemory/parking-lot-prophet"
+      ],
+      [
+        "AMAZON MUSIC",
+        "https://music.amazon.demo/cassemory/parking-lot-prophet"
+      ],
+      [
+        "SOUNDCLOUD",
+        "https://soundcloud.demo/cassemory/parking-lot-prophet"
+      ]
+    ]
+  },
+  "lyrics": null,
+  "tracks": [
+    {
+      "n": 1,
+      "title": "Prophet Intro",
+      "runtime": "1:12",
+      "drop": null,
+      "explicit": false,
+      "lyrics": null
+    },
+    {
+      "n": 2,
+      "title": "Parking Lot Prophet",
+      "runtime": "4:18",
+      "drop": null,
+      "explicit": true,
+      "lyrics": [
+        {
+          "tag": "VERSE 1",
+          "lines": [
+            "Man in the grocery lot preaching to the shopping carts,",
+            "says the end is coming Thursday and it's coming for the parts,",
+            "I bought the man a sandwich and he laid a hand on my car,",
+            "said the brakes are gonna last and said I'm gonna go far."
+          ]
+        },
+        {
+          "tag": "HOOK",
+          "lines": [
+            "Parking lot prophet, tell me something I don't know,",
+            "parking lot prophet, where the working people go,",
+            "he don't need a pulpit, he got asphalt and a sign,",
+            "parking lot prophet, and the brakes are doing fine."
+          ]
+        },
+        {
+          "tag": "VERSE 2",
+          "lines": [
+            "Six months later and the brakes are still good,",
+            "I went back to tell him but he wasn't where he stood,",
+            "nobody at the store could tell me where he went,",
+            "so I made a song about it, that's the closest thing to rent."
+          ]
+        },
+        {
+          "tag": "HOOK",
+          "lines": [
+            "Parking lot prophet, tell me something I don't know,",
+            "parking lot prophet, where the working people go,",
+            "he don't need a pulpit, he got asphalt and a sign,",
+            "parking lot prophet, and the brakes are doing fine."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Gulf Coast Gospel",
+      "runtime": "3:40",
+      "drop": null,
+      "explicit": false,
+      "lyrics": null
+    },
+    {
+      "n": 4,
+      "title": "No Ceiling In The Garage",
+      "runtime": "3:27",
+      "drop": null,
+      "explicit": false,
+      "lyrics": null
+    },
+    {
+      "n": 5,
+      "title": "Baytown Blue",
+      "runtime": "4:06",
+      "drop": "baytown-blue",
+      "explicit": false,
+      "lyrics": null
+    },
+    {
+      "n": 6,
+      "title": "Amen, Anyway",
+      "runtime": "3:55",
+      "drop": null,
+      "explicit": false,
+      "lyrics": null
+    }
+  ],
+  "publishing": "Words by CASS EMORY. © 2025 Second Shift Songs (ASCAP), administered independently. Published here by the writer.",
+  "credits": [
+    [
+      "Written by",
+      "CASS EMORY"
+    ],
+    [
+      "Produced by",
+      "Dre Villanueva and Lyle Banks"
+    ],
+    [
+      "Additional production",
+      "Kemi Adebayo"
+    ],
+    [
+      "Live bass",
+      "Lyle Banks"
+    ],
+    [
+      "Live keys",
+      "Nadia Fontenot"
+    ],
+    [
+      "Live drums",
+      "Theo Castille"
+    ],
+    [
+      "Live guitar",
+      "Ruben Salas"
+    ],
+    [
+      "Recorded at",
+      "a warehouse off Navigation Blvd, Houston, TX"
+    ],
+    [
+      "Mixed by",
+      "Ari Delacroix"
+    ],
+    [
+      "Mastered by",
+      "Simone Park"
+    ],
+    [
+      "Artwork by",
+      "Dessa Villareal"
+    ],
+    [
+      "Published by",
+      "Second Shift Songs (ASCAP), administered independently"
+    ]
+  ],
+  "capsule": {
+    "heading": [
+      [
+        "PARKING LOT",
+        "c"
+      ],
+      [
+        "PROPHET",
+        "w"
+      ],
+      [
+        "RECORDS.",
+        "c"
+      ]
+    ],
+    "sub": "STANDING CATALOGUE · SHIPS FROM HOUSTON · 5–7 BUSINESS DAYS",
+    "status": "open",
+    "store": "https://shop.cassemory.demo/products/",
+    "items": [
+      {
+        "name": "PARKING LOT PROPHET, 12\" vinyl",
+        "short": "12\" VINYL",
+        "price": "$32",
+        "sizes": null,
+        "slug": "plp-vinyl"
+      },
+      {
+        "name": "PARKING LOT PROPHET, CD",
+        "short": "CD",
+        "price": "$12",
+        "sizes": null,
+        "slug": "plp-cd"
+      },
+      {
+        "name": "Stacked-wordmark tee, ink on bone",
+        "short": "WORDMARK TEE",
+        "price": "$34",
+        "sizes": [
+          [
+            "S",
+            true
+          ],
+          [
+            "M",
+            true
+          ],
+          [
+            "L",
+            true
+          ],
+          [
+            "XL",
+            true
+          ],
+          [
+            "2XL",
+            true
+          ],
+          [
+            "3XL",
+            false
+          ]
+        ],
+        "slug": "wordmark-tee"
+      },
+      {
+        "name": "Enamel pin, two-colour",
+        "short": "ENAMEL PIN",
+        "price": "$12",
+        "sizes": null,
+        "slug": "enamel-pin"
+      }
+    ]
+  },
+  "more": [
+    {
+      "slug": "the-second-shift-tape",
+      "title": "THE SECOND SHIFT TAPE",
+      "type": "Mixtape",
+      "year": "2024"
+    },
+    {
+      "slug": "baytown-blue",
+      "title": "BAYTOWN BLUE",
+      "type": "Single + visual",
+      "year": "2025"
+    },
+    {
+      "slug": "concrete-choir",
+      "title": "CONCRETE CHOIR",
+      "type": "Single + visual",
+      "year": "2026"
+    }
+  ]
+}

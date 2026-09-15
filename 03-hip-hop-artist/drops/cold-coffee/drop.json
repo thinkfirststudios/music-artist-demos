@@ -1,0 +1,281 @@
+{
+  "slug": "cold-coffee",
+  "title": "COLD COFFEE",
+  "title_lines": [
+    [
+      "COLD",
+      "w"
+    ],
+    [
+      "COFFEE",
+      "c"
+    ]
+  ],
+  "type": "Single + visual",
+  "year": "2026",
+  "kicker": "SINGLE + VISUAL · 03.11.26",
+  "date_iso": "2026-03-11",
+  "runtime": "2:58",
+  "duration_iso": "PT2M58S",
+  "explicit": false,
+  "city": "HOUSTON, TX",
+  "meta_description": "COLD COFFEE by CASS EMORY: the video, full lyrics, credits, streaming links and the capsule. Fictional demonstration site by ThinkFirst Studios.",
+  "og_image": "og.png",
+  "publisher_name": "Second Shift Songs (ASCAP), administered independently",
+  "video": {
+    "title": "COLD COFFEE",
+    "director": "Rome Aguilar",
+    "duration_iso": "PT2M58S",
+    "still": "images/visuals-c.jpg",
+    "still_alt": "Two small practice amps and a bass guitar on a stand against a mottled red wall in an empty rehearsal space",
+    "still_credit": "Still: Marquis Odom",
+    "stock_credit": "Demo stand-in image: ArtHouse Studio / Pexels",
+    "crew": [
+      [
+        "Directed by",
+        "Rome Aguilar"
+      ],
+      [
+        "DP",
+        "Tavo Reyes"
+      ],
+      [
+        "Edit",
+        "Sawyer Pike"
+      ],
+      [
+        "Colour",
+        "June Nakamura"
+      ],
+      [
+        "Production",
+        "Eastbound Pictures"
+      ],
+      [
+        "Location",
+        "Rehearsal room off Telephone Road, Houston, TX"
+      ]
+    ],
+    "spoken": [
+      {
+        "who": "Theo Castille, 0:00",
+        "text": "One, two, one two three four."
+      }
+    ]
+  },
+  "stream": {
+    "links": [
+      [
+        "SPOTIFY",
+        "https://open.spotify.demo/cassemory/cold-coffee"
+      ],
+      [
+        "APPLE MUSIC",
+        "https://music.apple.demo/cassemory/cold-coffee"
+      ],
+      [
+        "YOUTUBE",
+        "https://youtube.com/@cassemory.demo"
+      ],
+      [
+        "BANDCAMP",
+        "https://cassemory.bandcamp.demo/cold-coffee"
+      ],
+      [
+        "TIDAL",
+        "https://tidal.demo/cassemory/cold-coffee"
+      ],
+      [
+        "AMAZON MUSIC",
+        "https://music.amazon.demo/cassemory/cold-coffee"
+      ],
+      [
+        "SOUNDCLOUD",
+        "https://soundcloud.demo/cassemory/cold-coffee"
+      ]
+    ]
+  },
+  "lyrics": [
+    {
+      "tag": "VERSE 1",
+      "lines": [
+        "Cold coffee on the dash since six,",
+        "keep meaning to drink it, never do, it's a fixture now,",
+        "like the rosary on the mirror and the parking stub from May,",
+        "like the voicemail from my sister that I never erase."
+      ]
+    },
+    {
+      "tag": "HOOK",
+      "lines": [
+        "Cold coffee, warm heart, long road,",
+        "everything I own is in the passenger seat, so,",
+        "cold coffee, still here, still going,",
+        "nobody said that it'd be good, just that it would be morning."
+      ]
+    },
+    {
+      "tag": "VERSE 2",
+      "lines": [
+        "Rehearsal in the room off Telephone Road,",
+        "Theo counting in, Nadia finding the chord nobody wrote,",
+        "we play it till it's ugly, then we play it till it's right,",
+        "then I drive home with the coffee I forgot again tonight."
+      ]
+    },
+    {
+      "tag": "HOOK",
+      "lines": [
+        "Cold coffee, warm heart, long road,",
+        "everything I own is in the passenger seat, so,",
+        "cold coffee, still here, still going,",
+        "nobody said that it'd be good, just that it would be morning."
+      ]
+    }
+  ],
+  "publishing": "Words by CASS EMORY. © 2026 Second Shift Songs (ASCAP), administered independently. Published here by the writer.",
+  "credits": [
+    [
+      "Written by",
+      "CASS EMORY"
+    ],
+    [
+      "Produced by",
+      "Dre Villanueva and Lyle Banks"
+    ],
+    [
+      "Additional production",
+      "Kemi Adebayo"
+    ],
+    [
+      "Live bass",
+      "Lyle Banks"
+    ],
+    [
+      "Live keys",
+      "Nadia Fontenot"
+    ],
+    [
+      "Live drums",
+      "Theo Castille"
+    ],
+    [
+      "Live guitar",
+      "Ruben Salas"
+    ],
+    [
+      "Recorded at",
+      "a warehouse off Navigation Blvd, Houston, TX"
+    ],
+    [
+      "Mixed by",
+      "Ari Delacroix"
+    ],
+    [
+      "Mastered by",
+      "Simone Park"
+    ],
+    [
+      "Artwork by",
+      "Dessa Villareal"
+    ],
+    [
+      "Published by",
+      "Second Shift Songs (ASCAP), administered independently"
+    ]
+  ],
+  "capsule": {
+    "heading": [
+      [
+        "THE COLD",
+        "c"
+      ],
+      [
+        "COFFEE",
+        "w"
+      ],
+      [
+        "CAPSULE.",
+        "c"
+      ]
+    ],
+    "sub": "ARCHIVED CAPSULE · SOLD THROUGH · SOLD-OUT ITEMS STAY LISTED",
+    "status": "closed",
+    "store": "https://shop.cassemory.demo/products/",
+    "items": [
+      {
+        "name": "COLD COFFEE enamel mug",
+        "short": "ENAMEL MUG",
+        "price": "$24",
+        "sizes": null,
+        "slug": "cold-coffee-mug"
+      },
+      {
+        "name": "COLD COFFEE tee, bone",
+        "short": "TEE",
+        "price": "$36",
+        "sizes": [
+          [
+            "S",
+            false
+          ],
+          [
+            "M",
+            false
+          ],
+          [
+            "L",
+            false
+          ],
+          [
+            "XL",
+            false
+          ],
+          [
+            "2XL",
+            false
+          ],
+          [
+            "3XL",
+            false
+          ]
+        ],
+        "slug": "cold-coffee-tee"
+      },
+      {
+        "name": "Riso poster, 18x24, edition of 200",
+        "short": "POSTER",
+        "price": "$22",
+        "sizes": null,
+        "slug": "cold-coffee-poster"
+      },
+      {
+        "name": "COLD COFFEE cassette single",
+        "short": "CASSETTE",
+        "price": "$10",
+        "sizes": null,
+        "slug": "cold-coffee-cassette"
+      }
+    ]
+  },
+  "more": [
+    {
+      "slug": "baytown-blue",
+      "title": "BAYTOWN BLUE",
+      "type": "Single + visual",
+      "year": "2025"
+    },
+    {
+      "slug": "parking-lot-prophet",
+      "title": "PARKING LOT PROPHET",
+      "type": "EP",
+      "year": "2025"
+    },
+    {
+      "slug": "the-second-shift-tape",
+      "title": "THE SECOND SHIFT TAPE",
+      "type": "Mixtape",
+      "year": "2024"
+    }
+  ]
+}

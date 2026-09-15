@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Music Artist Demos — ThinkFirst Studios</title>
+<style>
+  :root { --ink: #1A1B1E; --muted: #55585E; --line: #E2DED6; --bg: #FAF9F6; --accent: #2F5D57; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 880px; margin: 0 auto; padding: 56px 20px 40px; }
+  h1 { font-size: clamp(1.8rem, 1.2rem + 2vw, 2.6rem); line-height: 1.15; margin: 0 0 .5rem; letter-spacing: -.02em; }
+  .lede { color: var(--muted); margin: 0 0 2rem; max-width: 60ch; }
+  ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+  a.card { display: block; padding: 1.1rem 1.2rem; background: #fff; border: 1px solid var(--line); border-radius: 14px; text-decoration: none; color: inherit; transition: border-color .2s, transform .2s; }
+  a.card:hover { border-color: var(--accent); transform: translateY(-2px); }
+  a.card:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .name { font-weight: 650; font-size: 1.1rem; }
+  .meta { color: var(--muted); font-size: .92rem; }
+  .focus { color: var(--accent); font-size: .85rem; font-weight: 600; margin-top: .2rem; }
+  footer { max-width: 880px; margin: 0 auto; padding: 24px 20px 40px; color: var(--muted); font-size: .85rem; border-top: 1px solid var(--line); text-align: center; }
+  @media (prefers-reduced-motion: reduce) { a.card { transition: none; } a.card:hover { transform: none; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Music artist demo sites</h1>
+  <p class="lede">Five fictional musicians, each built to show the kind of site we make for working artists: tour dates that sell tickets, a mailing list the artist owns, a real press kit, and players that load only when someone presses play.</p>
+  <ul>
+    <li><a class="card" href="01-singer-songwriter/"><span class="name">Bryn Hollis</span><br><span class="meta">Folk / indie singer-songwriter · Durham, North Carolina</span><div class="focus">Tour ledger + mailing list · complete songbook</div></a></li>
+    <li><a class="card" href="02-electronic-producer/"><span class="name">SEVEROV</span><br><span class="meta">Techno producer and DJ · Bristol, UK</span><div class="focus">Promoter booking track · rider and press assets</div></a></li>
+    <li><a class="card" href="03-hip-hop-artist/"><span class="name">CASS EMORY</span><br><span class="meta">Independent hip-hop · Houston, Texas</span><div class="focus">Drop-page template · capsule merch · email + SMS list</div></a></li>
+    <li><a class="card" href="04-band/"><span class="name">Nine Mile Static</span><br><span class="meta">Alt-rock four-piece · Cleveland, Ohio</span><div class="focus">Full EPK · stage plot and input list</div></a></li>
+    <li><a class="card" href="05-classical-jazz/"><span class="name">Odile Rannoch</span><br><span class="meta">Classical cellist · Boston, Massachusetts</span><div class="focus">Three enquiry paths · season calendar · programme notes</div></a></li>
+  </ul>
+</main>
+<footer>Demonstration sites by ThinkFirst Studios. Not real artists.</footer>
+</body>
+</html>

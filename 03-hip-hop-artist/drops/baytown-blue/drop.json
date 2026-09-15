@@ -1,0 +1,281 @@
+{
+  "slug": "baytown-blue",
+  "title": "BAYTOWN BLUE",
+  "title_lines": [
+    [
+      "BAYTOWN",
+      "w"
+    ],
+    [
+      "BLUE",
+      "c"
+    ]
+  ],
+  "type": "Single + visual",
+  "year": "2025",
+  "kicker": "SINGLE + VISUAL · 11.19.25",
+  "date_iso": "2025-11-19",
+  "runtime": "4:06",
+  "duration_iso": "PT4M6S",
+  "explicit": false,
+  "city": "HOUSTON, TX",
+  "meta_description": "BAYTOWN BLUE by CASS EMORY: the video, full lyrics, credits, streaming links and the capsule. Fictional demonstration site by ThinkFirst Studios.",
+  "og_image": "og.png",
+  "publisher_name": "Second Shift Songs (ASCAP), administered independently",
+  "video": {
+    "title": "BAYTOWN BLUE",
+    "director": "Sawyer Pike",
+    "duration_iso": "PT4M6S",
+    "still": "images/visuals-d.jpg",
+    "still_alt": "A lit refinery with flare stacks and cooling towers at dusk, reflected in still water",
+    "still_credit": "Still: Marquis Odom",
+    "stock_credit": "Demo stand-in image: Johannes Plenio / Pexels",
+    "crew": [
+      [
+        "Directed by",
+        "Sawyer Pike"
+      ],
+      [
+        "DP",
+        "Tavo Reyes"
+      ],
+      [
+        "Edit",
+        "Ines Okonkwo"
+      ],
+      [
+        "Colour",
+        "June Nakamura"
+      ],
+      [
+        "Production",
+        "Eastbound Pictures"
+      ],
+      [
+        "Location",
+        "Baytown, TX, and the Houston Ship Channel"
+      ]
+    ],
+    "spoken": [
+      {
+        "who": "Sound, 0:00",
+        "text": "[Water against a pier. A ship horn, far off.]"
+      }
+    ]
+  },
+  "stream": {
+    "links": [
+      [
+        "SPOTIFY",
+        "https://open.spotify.demo/cassemory/baytown-blue"
+      ],
+      [
+        "APPLE MUSIC",
+        "https://music.apple.demo/cassemory/baytown-blue"
+      ],
+      [
+        "YOUTUBE",
+        "https://youtube.com/@cassemory.demo"
+      ],
+      [
+        "BANDCAMP",
+        "https://cassemory.bandcamp.demo/baytown-blue"
+      ],
+      [
+        "TIDAL",
+        "https://tidal.demo/cassemory/baytown-blue"
+      ],
+      [
+        "AMAZON MUSIC",
+        "https://music.amazon.demo/cassemory/baytown-blue"
+      ],
+      [
+        "SOUNDCLOUD",
+        "https://soundcloud.demo/cassemory/baytown-blue"
+      ]
+    ]
+  },
+  "lyrics": [
+    {
+      "tag": "VERSE 1",
+      "lines": [
+        "Refinery lit up like a birthday nobody came to,",
+        "flare stacks burning off whatever's left of what we came through,",
+        "Granddaddy worked the channel thirty-one years,",
+        "came home smelling like the future with a ringing in his ears."
+      ]
+    },
+    {
+      "tag": "HOOK",
+      "lines": [
+        "Baytown blue, that's the colour of the water at dusk,",
+        "Baytown blue, that's the colour of the paint on the truck,",
+        "Baytown blue, that's the colour when I close my eyes,",
+        "it ain't sad, it's just the colour of the sky."
+      ]
+    },
+    {
+      "tag": "VERSE 2",
+      "lines": [
+        "Forty minutes from the east side if the bridge is kind,",
+        "I've written half my life inside that forty minutes' time,",
+        "Mama on the porch, the dog that don't bark no more,",
+        "I pull in, cut the engine, sit a minute, then I go in the door."
+      ]
+    },
+    {
+      "tag": "HOOK",
+      "lines": [
+        "Baytown blue, that's the colour of the water at dusk,",
+        "Baytown blue, that's the colour of the paint on the truck,",
+        "Baytown blue, that's the colour when I close my eyes,",
+        "it ain't sad, it's just the colour of the sky."
+      ]
+    }
+  ],
+  "publishing": "Words by CASS EMORY. © 2025 Second Shift Songs (ASCAP), administered independently. Published here by the writer.",
+  "credits": [
+    [
+      "Written by",
+      "CASS EMORY"
+    ],
+    [
+      "Produced by",
+      "Dre Villanueva and Lyle Banks"
+    ],
+    [
+      "Additional production",
+      "Kemi Adebayo"
+    ],
+    [
+      "Live bass",
+      "Lyle Banks"
+    ],
+    [
+      "Live keys",
+      "Nadia Fontenot"
+    ],
+    [
+      "Live drums",
+      "Theo Castille"
+    ],
+    [
+      "Live guitar",
+      "Ruben Salas"
+    ],
+    [
+      "Recorded at",
+      "a warehouse off Navigation Blvd, Houston, TX"
+    ],
+    [
+      "Mixed by",
+      "Ari Delacroix"
+    ],
+    [
+      "Mastered by",
+      "Simone Park"
+    ],
+    [
+      "Artwork by",
+      "Dessa Villareal"
+    ],
+    [
+      "Published by",
+      "Second Shift Songs (ASCAP), administered independently"
+    ]
+  ],
+  "capsule": {
+    "heading": [
+      [
+        "THE BAYTOWN",
+        "c"
+      ],
+      [
+        "BLUE",
+        "w"
+      ],
+      [
+        "CAPSULE.",
+        "c"
+      ]
+    ],
+    "sub": "ARCHIVED CAPSULE · SOLD THROUGH · SOLD-OUT ITEMS STAY LISTED",
+    "status": "closed",
+    "store": "https://shop.cassemory.demo/products/",
+    "items": [
+      {
+        "name": "BAYTOWN BLUE tee, washed blue",
+        "short": "BLUE TEE",
+        "price": "$36",
+        "sizes": [
+          [
+            "S",
+            false
+          ],
+          [
+            "M",
+            false
+          ],
+          [
+            "L",
+            false
+          ],
+          [
+            "XL",
+            false
+          ],
+          [
+            "2XL",
+            false
+          ],
+          [
+            "3XL",
+            false
+          ]
+        ],
+        "slug": "baytown-blue-tee"
+      },
+      {
+        "name": "Bandana, two-colour print",
+        "short": "BANDANA",
+        "price": "$14",
+        "sizes": null,
+        "slug": "baytown-blue-bandana"
+      },
+      {
+        "name": "Riso poster, 18x24, edition of 200",
+        "short": "POSTER",
+        "price": "$22",
+        "sizes": null,
+        "slug": "baytown-blue-poster"
+      },
+      {
+        "name": "BAYTOWN BLUE CD single",
+        "short": "CD SINGLE",
+        "price": "$8",
+        "sizes": null,
+        "slug": "baytown-blue-cd"
+      }
+    ]
+  },
+  "more": [
+    {
+      "slug": "parking-lot-prophet",
+      "title": "PARKING LOT PROPHET",
+      "type": "EP",
+      "year": "2025"
+    },
+    {
+      "slug": "the-second-shift-tape",
+      "title": "THE SECOND SHIFT TAPE",
+      "type": "Mixtape",
+      "year": "2024"
+    },
+    {
+      "slug": "concrete-choir",
+      "title": "CONCRETE CHOIR",
+      "type": "Single + visual",
+      "year": "2026"
+    }
+  ]
+}

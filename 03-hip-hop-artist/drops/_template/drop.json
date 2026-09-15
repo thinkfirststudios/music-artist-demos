@@ -1,0 +1,197 @@
+{
+  "_how_to": "Copy this folder to /drops/<new-slug>/, then edit only this file. On a web server drop.json is read directly. To preview from disk, also paste this JSON into the <script id=\"drop-mirror\"> block in index.html (browsers block reading JSON from file://). Update the three share-preview lines in <head> too: share scrapers do not run JavaScript.",
+  "slug": "new-slug",
+  "title": "NEW TITLE",
+  "title_lines": [
+    [
+      "NEW",
+      "w"
+    ],
+    [
+      "TITLE",
+      "c"
+    ]
+  ],
+  "type": "Single + visual",
+  "year": "2026",
+  "kicker": "NEW SINGLE + VISUAL · OUT NOW · MM.DD.YY",
+  "date_iso": "2026-01-01",
+  "runtime": "0:00",
+  "duration_iso": "PT0M0S",
+  "explicit": false,
+  "city": "HOUSTON, TX",
+  "meta_description": "NEW TITLE by CASS EMORY: the video, full lyrics, credits, streaming links and the capsule.",
+  "og_image": "og.png",
+  "publisher_name": "Second Shift Songs (ASCAP), administered independently",
+  "video": {
+    "title": "NEW TITLE",
+    "director": "Director name",
+    "duration_iso": "PT0M0S",
+    "still": "images/hero-still.jpg",
+    "still_alt": "Describe the still",
+    "still_credit": "Still: Photographer name",
+    "stock_credit": "",
+    "crew": [
+      [
+        "Directed by",
+        "Name"
+      ],
+      [
+        "DP",
+        "Name"
+      ],
+      [
+        "Edit",
+        "Name"
+      ],
+      [
+        "Colour",
+        "Name"
+      ],
+      [
+        "Production",
+        "Eastbound Pictures"
+      ],
+      [
+        "Location",
+        "Location"
+      ]
+    ],
+    "spoken": []
+  },
+  "stream": {
+    "links": [
+      [
+        "SPOTIFY",
+        "https://open.spotify.demo/cassemory/new-slug"
+      ],
+      [
+        "APPLE MUSIC",
+        "https://music.apple.demo/cassemory/new-slug"
+      ],
+      [
+        "YOUTUBE",
+        "https://youtube.com/@cassemory.demo"
+      ],
+      [
+        "BANDCAMP",
+        "https://cassemory.bandcamp.demo/new-slug"
+      ],
+      [
+        "TIDAL",
+        "https://tidal.demo/cassemory/new-slug"
+      ],
+      [
+        "AMAZON MUSIC",
+        "https://music.amazon.demo/cassemory/new-slug"
+      ],
+      [
+        "SOUNDCLOUD",
+        "https://soundcloud.demo/cassemory/new-slug"
+      ]
+    ]
+  },
+  "lyrics": [
+    {
+      "tag": "VERSE 1",
+      "lines": [
+        "Line one",
+        "Line two"
+      ]
+    },
+    {
+      "tag": "HOOK",
+      "lines": [
+        "Hook line"
+      ]
+    }
+  ],
+  "publishing": "Words by CASS EMORY. © 2026 Second Shift Songs (ASCAP), administered independently.",
+  "credits": [
+    [
+      "Written by",
+      "CASS EMORY"
+    ],
+    [
+      "Produced by",
+      "Name"
+    ],
+    [
+      "Mixed by",
+      "Name"
+    ],
+    [
+      "Mastered by",
+      "Name"
+    ],
+    [
+      "Artwork by",
+      "Name"
+    ],
+    [
+      "Published by",
+      "Second Shift Songs (ASCAP), administered independently"
+    ]
+  ],
+  "capsule": {
+    "heading": [
+      [
+        "THE NEW",
+        "c"
+      ],
+      [
+        "TITLE",
+        "w"
+      ],
+      [
+        "CAPSULE.",
+        "c"
+      ]
+    ],
+    "sub": "SHIPS FROM HOUSTON · 5–7 BUSINESS DAYS · CAPSULE CLOSES WHEN IT SELLS THROUGH",
+    "status": "open",
+    "store": "https://shop.cassemory.demo/products/",
+    "items": [
+      {
+        "name": "Item name",
+        "short": "ITEM",
+        "price": "$0",
+        "sizes": [
+          [
+            "S",
+            true
+          ],
+          [
+            "M",
+            true
+          ],
+          [
+            "L",
+            true
+          ],
+          [
+            "XL",
+            true
+          ],
+          [
+            "2XL",
+            true
+          ],
+          [
+            "3XL",
+            true
+          ]
+        ],
+        "slug": "item-slug"
+      }
+    ]
+  },
+  "more": [
+    {
+      "slug": "concrete-choir",
+      "title": "CONCRETE CHOIR",
+      "type": "Single + visual",
+      "year": "2026"
+    }
+  ]
+}

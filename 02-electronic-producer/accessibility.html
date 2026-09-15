@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Accessibility — SEVEROV [DEMO]</title>
+<meta name="description" content="Accessibility — SEVEROV. Fictional demonstration site by ThinkFirst Studios.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#07080B">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Gothic&family=IBM+Plex+Mono:wght@400;500;600&family=Archivo:wght@400;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%2307080B'/%3E%3Cpath d='M14 46h36' stroke='%2339E1F5' stroke-width='3'/%3E%3Ctext x='32' y='40' font-family='Impact,sans-serif' font-size='34' text-anchor='middle' fill='%23E9EEF4'%3ES%3C/text%3E%3C/svg%3E">
+<script>document.documentElement.classList.add("js");</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "WebPage",
+ "name": "Accessibility — SEVEROV",
+ "disambiguatingDescription": "Fictional demonstration content."
+}
+</script>
+</head>
+<body class="page-inner">
+<a class="skip" href="#main">Skip to main content</a>
+<div class="demo-banner" role="note">⚠️ DEMO SITE — SEVEROV is a fictional artist created by ThinkFirst Studios for portfolio purposes. All releases, mixes, tour dates, venues, riders, press quotes and contacts are invented.</div>
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="wordmark" href="index.html" aria-label="SEVEROV, home"><span>S</span><span>E</span><span>V</span><span>E</span><span>R</span><span>O</span><span>V</span></a>
+    <nav class="nav" aria-label="Primary"><ul><li><a href="index.html#releases">Releases</a></li><li><a href="index.html#transmissions">Mixes</a></li><li><a href="index.html#live">Live</a></li><li><a href="booking.html">Booking</a></li><li><a href="press.html">Press Assets</a></li><li><a href="index.html#about">About</a></li></ul></nav>
+    <div class="hdr-actions">
+      <a class="pill-book" href="booking.html">BOOK</a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="takeover">Menu</button>
+    </div>
+  </div>
+</header>
+<div id="takeover" class="takeover" role="dialog" aria-modal="true" aria-label="Site menu" inert>
+  <div class="takeover__top"><span class="wordmark"><span>S</span><span>E</span><span>V</span><span>E</span><span>R</span><span>O</span><span>V</span></span><button class="menu-btn takeover__close" type="button" style="display:inline-flex;align-items:center">Close</button></div>
+  <nav aria-label="Mobile"><ul><li><a href="index.html#releases">Releases</a></li><li><a href="index.html#transmissions">Mixes</a></li><li><a href="index.html#live">Live</a></li><li><a href="booking.html">Booking</a></li><li><a href="press.html">Press Assets</a></li><li><a href="index.html#about">About</a></li></ul></nav>
+  <p style="margin-top:24px"><a class="btn btn--grad" href="booking.html">Booking + rider</a></p>
+</div>
+<main id="main"><header class="page-head"><div class="wrap"><p class="crumbs"><a href="index.html">SEVEROV</a> / ACCESSIBILITY</p><h1>ACCESSIBILITY</h1></div></header><div class="wrap prose" style="padding-bottom:80px"><p>Target: WCAG 2.2 AA.</p><ul>
+<li>This is a strobe-adjacent design, so the reduced-motion setting is a real requirement here. With it on, the marquees stop, the wordmark does not split, the waveform ribbon is not drawn, the hero video does not play (a still image shows instead), the live pulse is off, and every section renders in its final state.</li>
+<li>Nothing flashes more than three times a second anywhere, including in the hero loop.</li>
+<li>The hero loop is silent and has a pause control that stays on screen.</li>
+<li>The waveform ribbon is decoration. It does not react to audio, and it is hidden from screen readers.</li>
+<li>No audio plays on its own. Players load only when you press play, with the platform's own visible controls.</li>
+<li>Spoken content in recorded sets has a written transcript.</li>
+<li>Ticket states are written in words, never colour alone.</li>
+<li>The rider is readable HTML with numbered clauses. Every element in the stage plots is also listed in a table.</li>
+<li>Monospace metadata is never smaller than 11px. Tap targets are at least 24px.</li>
+<li>Keyboard focus is always visible, and there is a skip link on every page.</li></ul>
+<p>Something not working: <a href="mailto:management@severov.demo">management@severov.demo</a>.</p></div></main><footer class="site-footer">
+  <div class="wrap">
+    <div class="f-grid">
+      <div>
+        <p class="f-word">SEVEROV</p>
+        <p class="meta" style="margin:0 0 14px">Long sets, cold rooms, four players and a mixer.</p>
+        <ul aria-label="Official profiles">
+          <li><a href="https://severov.bandcamp.demo" rel="noopener">Bandcamp</a></li>
+          <li><a href="https://soundcloud.demo/severov" rel="noopener">SoundCloud</a></li>
+          <li><a href="https://youtube.com/@severov.demo" rel="noopener">YouTube</a></li>
+          <li><a href="https://instagram.com/severov.demo" rel="noopener">Instagram</a></li>
+          <li><a href="https://djlistings.demo/severov" rel="noopener">DJ listings profile</a></li>
+          <li><a href="index.html#list">Mailing list</a></li>
+        </ul>
+      </div>
+      <nav aria-labelledby="fm"><h2 id="fm">Music</h2><ul><li><a href="index.html#releases">Releases</a></li><li><a href="index.html#remixes">Remixes</a></li><li><a href="index.html#transmissions">Transmissions</a></li><li><a href="index.html#halflight">HALFLIGHT</a></li></ul></nav>
+      <nav aria-labelledby="fl"><h2 id="fl">Live</h2><ul><li><a href="index.html#live">Dates</a></li><li><a href="booking.html">Booking</a></li><li><a href="booking.html#rider">Rider</a></li><li><a href="press.html">Press assets</a></li></ul></nav>
+      <nav aria-labelledby="fi"><h2 id="fi">Info</h2><ul><li><a href="index.html#about">About</a></li><li><a href="index.html#contact">Contact</a></li><li><a href="privacy.html">Privacy</a></li><li><a href="accessibility.html">Accessibility</a></li></ul></nav>
+    </div>
+    <div class="compliance">
+      <p><a href="privacy.html#unsubscribe">Unsubscribe</a> · <a href="privacy.html">Privacy</a></p>
+      <p>Sender for all list email: HALFLIGHT Recordings, Unit 4, Wapping Wharf Yard, Bristol BS1 6XX, UK (demo address). Every email carries a working unsubscribe link.</p>
+      <p>Mixes are embedded from SoundCloud and YouTube, never served from this domain: a recorded DJ set contains other people's recordings, and that licensing sits with the platform. The only self-hosted media is the silent hero loop.</p>
+      <p>Venue and festival names in the date table are text only. No venue or festival marks are reproduced.</p>
+      <p>© 2026 ThinkFirst Studios. Demo build. · <em>Fictional artist, fictional label, fictional rider.</em></p>
+      <p class="demo-line">Demonstration site by ThinkFirst Studios. Not a real artist.</p>
+    </div>
+  </div>
+</footer>
+<script src="script.js" defer></script>
+</body>
+</html>
