@@ -522,3 +522,8 @@ dialog.modal::backdrop { background: rgba(10,10,12,.8); }
   .plot { overflow-x: auto; -webkit-overflow-scrolling: touch; }
   .plot svg { min-width: 680px; }
 }
+
+
+/* Condensed header keeps the same reserved space, so the hero never jumps at the scroll threshold */
+.site-header.is-condensed { margin-bottom: -56px; }
+.page-sub .site-header.is-condensed { margin-bottom: 0; }

@@ -552,3 +552,8 @@ details.played summary::-webkit-details-marker { display: none; }
 /* Hero wordmark: fit inside the viewport instead of running off the edges.
    Width = 2.6em of glyphs + 8 tracking steps (7 letters + balancing left padding) = 92vw. */
 .hero__word { --ls: calc((92vw - 2.6em) / 8); }
+
+
+/* Condensed header keeps the same reserved space, so the hero never jumps at the scroll threshold */
+.site-header.is-cut { margin-bottom: -52px; }
+.page-inner .site-header.is-cut { margin-bottom: 0; }
