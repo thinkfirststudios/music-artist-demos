@@ -557,3 +557,25 @@ details.played summary::-webkit-details-marker { display: none; }
 /* Condensed header keeps the same reserved space, so the hero never jumps at the scroll threshold */
 .site-header.is-cut { margin-bottom: -52px; }
 .page-inner .site-header.is-cut { margin-bottom: 0; }
+
+/* ---------- fit-to-any-viewport (incl. fixed-aspect iframes) ----------
+   The hero used to be a fixed 100svh box (floor 560px) with its copy absolutely pinned
+   to the bottom and a width-only wordmark size. The demo banner sits above it in flow, so
+   the box always ran past the fold by the banner's height, and any short viewport (laptop
+   at 1280x600, a 16:9 portfolio iframe) pushed the CTAs, credit or the name itself below
+   the visible area, where overflow:hidden on .hero cut them off. Now the copy is in flow
+   (the hero grows to fit it rather than clipping), the box targets the space left under
+   the banner (--banner-h is measured in script.js), and the wordmark scales by height too. */
+.hero { height: auto; min-height: calc(100vh - var(--banner-h, 0px)); min-height: calc(100svh - var(--banner-h, 0px)); display: flex; flex-direction: column; justify-content: flex-end; }
+.hero__content { position: relative; left: auto; right: auto; bottom: auto; padding: calc(var(--hdr) + 64px) 0 56px; }
+.hero__word { font-size: max(3rem, min(max(5rem, 18vw), 16rem, 28vw, 30vh)); font-size: max(3rem, min(max(5rem, 18vw), 16rem, 28vw, 30svh)); }
+@media (max-height: 560px) { .hero__line { margin: 12px 0 16px; } }
+
+/* Grid tracks default to min-width:auto, so letter-spaced placeholders and the rider
+   tables (which have their own scroll wrapper) were widening the page past the viewport. */
+.tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (min-width: 760px) { .tiles { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+.plots { grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 1000px) { .plots { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.release > *, .about > *, .imprint__grid > *, .booking-grid > *, .products > *, .photos > *, .mix__row > * { min-width: 0; }
+.frame { overflow-wrap: anywhere; }

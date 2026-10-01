@@ -23,6 +23,15 @@
   cut();
   window.addEventListener("scroll", cut, { passive: true });
 
+  /* ---------- demo banner height → CSS, so the hero fills exactly the space under it ---------- */
+  var banner = $(".demo-banner");
+  if (banner) {
+    var setBanner = function () { d.documentElement.style.setProperty("--banner-h", banner.offsetHeight + "px"); };
+    setBanner();
+    if ("ResizeObserver" in window) new ResizeObserver(setBanner).observe(banner);
+    else window.addEventListener("resize", setBanner);
+  }
+
   /* ---------- mobile takeover ---------- */
   var menu = $("#takeover"), menuBtn = $(".menu-btn");
   if (menu && menuBtn) {
